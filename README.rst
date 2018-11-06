@@ -9,6 +9,10 @@ The python code was responsible for two things: updating items and defining the 
 The new code allows to dynamically define these conditions, which are called Rules. The objective is to move them to a DB in the future. You can see an example in tests/fixtures.py
 The Gilded Rose class is now only responsible to iterate through the items and call the rules that apply to them.
 
+The main python classes are defined in gilded_rose_refactoring_kata/gilded_rose.py
+
+The tests and fixtures are in the tests folder.
+
 
 Installation
 ------------
