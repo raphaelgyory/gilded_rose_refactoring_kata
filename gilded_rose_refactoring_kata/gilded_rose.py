@@ -65,7 +65,7 @@ class GildedRose(object):
         self.items = items
         self.rules = rules
 
-    def update_quality(self, days=1):
+    def update(self, days=1):
         for day in range(days):
             for item in self.items:
                 for rule in self.rules:

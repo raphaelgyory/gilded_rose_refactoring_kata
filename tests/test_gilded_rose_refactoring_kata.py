@@ -33,18 +33,18 @@ def test_legacy_items_at_day_0(manager):
 
 def test_legacy_items_at_day_1(manager):
     """ Make sure legacy data keeps working. """
-    manager.update_quality()
+    manager.update()
     compare_results_attrs(manager.items, fixtures.FIXTURES[1])
 
 
 def test_day_11(manager):
-    manager.update_quality(days=10)
+    manager.update(days=10)
     compare_results_attrs(manager.items, fixtures.FIXTURES[11])
 
 
 def test_limits(manager):
     """ Makes sure 0 < quality < 50  """
-    manager.update_quality(days=40)
+    manager.update(days=40)
     compare_results_attrs(manager.items, fixtures.FIXTURES[51])
 
 
