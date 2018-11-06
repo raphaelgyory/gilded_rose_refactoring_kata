@@ -1,5 +1,5 @@
 ============================
-gilded_rose_refactoring_kata
+Gilded Rose Refactoring Kata
 ============================
 
 This an implementation of the Gilded Rose refactoring kata (https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/master/GildedRoseRequirements.txt)
@@ -10,22 +10,19 @@ Installation
 
 Clone the repository
 
-.. code::
-   git clone https://github.com/raphaelgyory/gilded_rose_refactoring_kata
-   cd gilded_rose_refactoring_kata
+    git clone https://github.com/raphaelgyory/gilded_rose_refactoring_kata
+    cd gilded_rose_refactoring_kata
 
 Create a virtual environment and install python requirements.
 
-.. code::
-   virtualenv -p python3 gilded_rose_venv
-   source gilded_rose_venv/bin/activate
-   pip3 install -r requirements_dev.txt
+    virtualenv -p python3 gilded_rose_venv
+    source gilded_rose_venv/bin/activate
+    pip3 install -r requirements_dev.txt
 
 
 Run tests
 
-.. code::
-   make test
+    make test
 
 
 * Free software: MIT license
