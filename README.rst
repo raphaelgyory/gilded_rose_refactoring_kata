@@ -10,13 +10,13 @@ Installation
 
 Clone the repository
 
-.. code-block::
+.. code::
    git clone https://github.com/raphaelgyory/gilded_rose_refactoring_kata
    cd gilded_rose_refactoring_kata
 
 Create a virtual environment and install python requirements.
 
-.. code-block::
+.. code::
    virtualenv -p python3 gilded_rose_venv
    source gilded_rose_venv/bin/activate
    pip3 install -r requirements_dev.txt
@@ -24,7 +24,7 @@ Create a virtual environment and install python requirements.
 
 Run tests
 
-.. code-block::
+.. code::
    make test
 
 
